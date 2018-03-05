@@ -11,8 +11,8 @@ attr_accessor :name
     @@all = []
   end
 
-  def self.all 
-    @@all.each do {|element| puts "Element"}
+  def self.all
+    @@all.each do {|element| puts element}
   end
 
 end
