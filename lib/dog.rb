@@ -12,7 +12,9 @@ attr_accessor :name
   end
 
   def self.all
-    @@all.each do {|element| puts "element"}
+    @@all.each do |element|
+      puts element
+    end
   end
 
 end
