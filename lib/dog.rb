@@ -7,6 +7,9 @@ attr_accessor :name
     @@all << self
   end
 
+  def clear_all
+    @@all = []
+  end
 
 
 end
